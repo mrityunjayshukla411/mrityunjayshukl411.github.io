@@ -14,9 +14,10 @@
 <body>
     <nav id="navbar">
         <div id="logo">
-            <img src="" alt="devato">
+            <h2 id="main">Devato</h2>
         </div>
         <ul>
+            <!-- <li class="item" id="main"><a href="#home">Devato</a></li> -->
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#services-container">Services</a></li>
             <li class="item"><a href="#client-section">Our Clients</a></li>
@@ -93,6 +94,7 @@
                 </div>
             </form>
         </div>
+        <button class="btn submit-btn " id="submit">Submit</button>
     </section>
 
     <footer>
@@ -101,5 +103,11 @@
         </div>
     </footer>
 </body>
+
+<script>
+    document.getElementById("submit").addEventListener("click", ()=> {
+        alert("Your request has been submitted")
+    })
+</script>
 
 </html>
