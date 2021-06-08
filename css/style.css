@@ -46,6 +46,11 @@ html{
 
 /* Navigation Bar: List Styling */
 
+#main{
+    font-size: xx-large;
+    font-weight: 500;
+    color: azure;
+}
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai', cursive;
@@ -131,6 +136,8 @@ html{
 /* Clients Section */
 #client-section{ 
     position: relative;
+    /* background-image: linear-gradient(to bottom, #ffffff, #bfcede, #6ca5b1, #207b6d, #134e1b); */
+    background-image: linear-gradient(to bottom, #ffffff, #c1bed1, #8780a4, #504778, #18134e);
 }
 
 #client-section::before{
@@ -161,6 +168,7 @@ html{
 /* Contact Section */
 #contact{
     position: relative;
+    background-image: linear-gradient(to top, #ffffff, #c1bed1, #8780a4, #504778, #18134e);
 }
 #contact::before{
     content: "";
@@ -229,4 +237,8 @@ footer{
 
 .center{
     text-align: center;
+}
+.submit-btn{
+    position: relative;
+    margin: 0% 45%;
 }
